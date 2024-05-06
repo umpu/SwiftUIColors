@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0087D1082BE9320E0030B380 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087D1072BE9320E0030B380 /* ContentViewModel.swift */; };
 		208ACCF62BE35AFA00E8F70B /* SwiftUIColorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208ACCF52BE35AFA00E8F70B /* SwiftUIColorsApp.swift */; };
 		208ACCF82BE35AFA00E8F70B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208ACCF72BE35AFA00E8F70B /* ContentView.swift */; };
 		208ACCFA2BE35AFF00E8F70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208ACCF92BE35AFF00E8F70B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0087D1072BE9320E0030B380 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		208ACCF22BE35AFA00E8F70B /* SwiftUIColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208ACCF52BE35AFA00E8F70B /* SwiftUIColorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorsApp.swift; sourceTree = "<group>"; };
 		208ACCF72BE35AFA00E8F70B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				208ACCF52BE35AFA00E8F70B /* SwiftUIColorsApp.swift */,
 				208ACCF72BE35AFA00E8F70B /* ContentView.swift */,
+				0087D1072BE9320E0030B380 /* ContentViewModel.swift */,
 				208ACCF92BE35AFF00E8F70B /* Assets.xcassets */,
 				208ACCFB2BE35AFF00E8F70B /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				208ACCF82BE35AFA00E8F70B /* ContentView.swift in Sources */,
 				208ACCF62BE35AFA00E8F70B /* SwiftUIColorsApp.swift in Sources */,
+				0087D1082BE9320E0030B380 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
