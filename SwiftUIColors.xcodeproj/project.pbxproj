@@ -53,11 +53,11 @@
 		208ACCF42BE35AFA00E8F70B /* SwiftUIColors */ = {
 			isa = PBXGroup;
 			children = (
-				208ACCF52BE35AFA00E8F70B /* SwiftUIColorsApp.swift */,
+				208ACCF92BE35AFF00E8F70B /* Assets.xcassets */,
 				208ACCF72BE35AFA00E8F70B /* ContentView.swift */,
 				0087D1072BE9320E0030B380 /* ContentViewModel.swift */,
-				208ACCF92BE35AFF00E8F70B /* Assets.xcassets */,
 				208ACCFB2BE35AFF00E8F70B /* Preview Content */,
+				208ACCF52BE35AFA00E8F70B /* SwiftUIColorsApp.swift */,
 			);
 			path = SwiftUIColors;
 			sourceTree = "<group>";

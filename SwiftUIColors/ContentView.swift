@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    private var model = ContentViewModel()
+    @StateObject private var model = ContentViewModel()
     
     var body: some View {
         HStack(spacing: 0) {
